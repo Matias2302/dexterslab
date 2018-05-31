@@ -1,0 +1,10 @@
+html{
+    height: 100%;
+}
+
+
+.rectangle-1 {
+  width: 1600px;
+  height: 990px;
+  mix-blend-mode: undefined;
+  background-color: #00a3e4;
