@@ -2,9 +2,65 @@ html{
     height: 100%;
 }
 
+body{
+    margin:0;
+}
 
+h1{
+    color:#fff;
+    display: inline-block;
+}
+
+span{
+    color:#fff;
+}
+
+button{
+    border:0;
+    height: 40px;
+    width: 150px;
+    color:#fff;
+    background-color:  #00a3e4;
+}
+
+/* REctángulo 1 */
 .rectangle-1 {
-  width: 1600px;
-  height: 990px;
-  mix-blend-mode: undefined;
-  background-color: #00a3e4;
+    margin:0;
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/header-background.png");
+}
+.titulo{
+    display:inline-block;
+    margin: 200px 0 0 250px;
+}
+.titulo h1{
+    line-height: 0.5px;
+}
+
+.logo{
+    position: relative;
+    padding-top:30px;
+    margin-left:250px;
+}
+.celular{
+    position: absolute;
+    right: 100px;
+    top:100px;
+}
+
+.celular img{
+    height: 400px;
+    width: 200px;
+}
+
+/* ===================================================== */
+
+/* Rectángulo 2 */
+.rectangle-2{
+    width:100%;
+    height: 200px;
+    background-color: #0084b8;
+}
+
+/*====================================================== */
